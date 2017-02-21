@@ -5,19 +5,18 @@ import java.io.*;
 
 /**
  * Created by smanvi on 2/20/17.
- * Change the properties corruptFilePath and missingResourceName to fit your needs..
- *
- *
+ * Change the properties corruptFilePath, missingResourceTypeId and
+ * missingResourceName to fit your needs..README.md has more info.
  *
  */
 public class StatsCleaner {
 
     String corruptFilePath = "stats-cleaner/data/bad/corrupted_file.gfs";
 
-    String missingResourceName = "cacheClientProxyStats-id_host1(default_GemfireDS:20234:loner):2:GFNative_89kiXDueIe69204:default_GemfireDS_at_host1:20234.";
+    String missingResourceName = "cacheClientProxyStats-id_host1(default_GemfireDS:11111:loner):2:GFNative_89kiXDueIe22222:default_GemfireDS_at_host1:11111.";
     int missingResourceTypeId = 23;
 
-//    String missingResourceName = "ClientSubscriptionStats-_gfe_non_durable_client_with_id_host1(default_GemfireDS:69204:loner):2:GFNative_89kiXDueIe69204:default_GemfireDS_1_queue.";
+//    String missingResourceName = "ClientSubscriptionStats-_gf_non_durable_client_with_id_host1(default_GemfireDS:22222:loner):2:GFNative_89kiXDueIe22222:default_GemfireDS_1_queue.";
 //    int missingResourceTypeId = 24;
 
     DataInputStream reader;
