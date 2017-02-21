@@ -21,4 +21,7 @@ java.lang.IllegalStateException: ResourceType is missing for resourceTypeId : 24
   ```
 
 #### Step 2:
-Modify the 3 properties of [StatsCleaner.java](https://github.com/smanvi-pivotal/stats-cleaner/blob/master/src/main/java/StatsCleaner.java#L13) using the info from the above exception - corruptFilePath, missingResourceName, missingResourceTypeId and run the class StatsCleaner. This will create a new corected file by replacing .gfs with `_cleaned.gfs` in the provied filename.
+Modify the 3 properties of [StatsCleaner.java](https://github.com/smanvi-pivotal/stats-cleaner/blob/master/src/main/java/StatsCleaner.java#L13) using the info from the above exception - 
+* `corruptFilePath`
+* `missingResourceName` (Ex: ClientSubscriptionStats_gf_non_durable_client_with_id_11.11.11.11(default_GemfireDS:1111:loner):2:GFNative_89kiXDueIe1111:default_GemfireDS_1_queue)
+* `missingResourceTypeId`(Ex: 24) and run the class StatsCleaner. This will create a new corected file by replacing .gfs with `_cleaned.gfs` in the provied filename.
