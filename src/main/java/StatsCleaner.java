@@ -12,12 +12,12 @@ import java.io.*;
  */
 public class StatsCleaner {
 
-    String corruptFilePath = "stats-cleaner/data/bad/us-prod01_psin9p014.gfs";
+    String corruptFilePath = "stats-cleaner/data/bad/corrupted_file.gfs";
 
-    String missingResourceName = "cacheClientProxyStats-id_12.546.3.59(default_GemfireDS:69204:loner):2:GFNative_89kiXDueIe69204:default_GemfireDS_at_169.91.12.47:60919.";
+    String missingResourceName = "cacheClientProxyStats-id_host1(default_GemfireDS:20234:loner):2:GFNative_89kiXDueIe69204:default_GemfireDS_at_host1:20234.";
     int missingResourceTypeId = 23;
 
-//    String missingResourceName = "ClientSubscriptionStats-_gfe_non_durable_client_with_id_10.249.3.59(default_GemfireDS:69204:loner):2:GFNative_89kiXDueIe69204:default_GemfireDS_1_queue.";
+//    String missingResourceName = "ClientSubscriptionStats-_gfe_non_durable_client_with_id_host1(default_GemfireDS:69204:loner):2:GFNative_89kiXDueIe69204:default_GemfireDS_1_queue.";
 //    int missingResourceTypeId = 24;
 
     DataInputStream reader;
