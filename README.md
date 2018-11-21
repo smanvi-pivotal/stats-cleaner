@@ -4,7 +4,7 @@ Apache Geode Stats file cleaner
 In some rare cases, the stats files produced by older versions of Apache Geode(1.0.0-incubating) or Gemfire(older than 8.2.3) might be corrupted.
 Stats files are corrupted when some headers are not written to the stats files. This is a quick and dirty utility which cleans the corrupted files so that it can be loaded and analyzed in the VSD tool. 
 
-### Cleaning up the stats files is a 2 step process.
+### Cleaning up the stats files is a 2 step process..
 
 #### Step 1:
 Get the ResourceType id and corresponding ResourceName by running geode class `org.apache.geode.internal.SystemAdmin` by passing  the below program args. You should have Apache Geode libraries on your class path. 
