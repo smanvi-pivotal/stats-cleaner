@@ -20,7 +20,7 @@ java.lang.IllegalStateException: ResourceType is missing for resourceTypeId : 24
 	at org.apache.geode.internal.statistics.StatArchiveReader$StatArchiveFile.update(StatArchiveReader.java:2955)
   ```
 
-#### Step 2:
+#### Step 2: 
 Modify the 3 properties of [StatsCleaner.java](https://github.com/smanvi-pivotal/stats-cleaner/blob/master/src/main/java/StatsCleaner.java#L13) using the info from the above exception - 
 * `corruptFilePath`
 * `missingResourceName` (Ex: ClientSubscriptionStats_gf_non_durable_client_with_id_11.11.11.11(default_GemfireDS:1111:loner):2:GFNative_89kiXDueIe1111:default_GemfireDS_1_queue)
