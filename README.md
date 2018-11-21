@@ -26,4 +26,4 @@ Modify the 3 properties of [StatsCleaner.java](https://github.com/smanvi-pivotal
 * `missingResourceName` (Ex: ClientSubscriptionStats_gf_non_durable_client_with_id_11.11.11.11(default_GemfireDS:1111:loner):2:GFNative_89kiXDueIe1111:default_GemfireDS_1_queue)
 * `missingResourceTypeId`(Ex: 24) and run the class StatsCleaner. This will create a new corected file by replacing .gfs with `_cleaned.gfs` in the provied filename..
 
-Run the class StatsCleaner after the above changes. A new gfs file will be created whose name is same as the corrupted file except that .gfs is replaced with _cleaned.gfs..
+Run the class StatsCleaner after the above changes. A new gfs file will be created whose name is same as the corrupted file except that .gfs is replaced with _cleaned.gfs.
