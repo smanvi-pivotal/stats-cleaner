@@ -2,7 +2,7 @@ import org.apache.geode.StatisticDescriptor;
 
 /**
  * Created by smanvi on 2/21/17.
- * Similar to geode ResourceType
+ * Similar to geode ResourceType.
  */
 public class RType {
 
