@@ -6,7 +6,7 @@ Stats files are corrupted when some headers are not written to the stats files. 
 
 ### Cleaning up the stats files is a 2 step process..
 
-#### Step 1:
+#### Step 1::
 Get the ResourceType id and corresponding ResourceName by running geode class `org.apache.geode.internal.SystemAdmin` by passing  the below program args. You should have Apache Geode libraries on your class path. 
 
 ```
